@@ -3,4 +3,11 @@ document.addEventListener("DOMContentLoaded", function(){
     saludar.addEventListener("click", function(){
         alert("Hola");
     })
+
+
+let divBoton = document.getElementById("div-container");
+    divBoton.addEventListener("click", function(){
+        alert("Hola soy el div")
+    })
+
 })
